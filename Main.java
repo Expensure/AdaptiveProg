@@ -24,8 +24,5 @@ public class Main {
         System.out.println("Gehuurd: " + ah1.getGehuurdeAuto());
         System.out.println("Gehuurd: " + ah2.getGehuurdeAuto());
 
-
-
 	}
-
 }
