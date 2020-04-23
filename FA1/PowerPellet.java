@@ -1,14 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package APFA1;
-
-/**
- *
- * @author jaspe
- */
-public class PowerPellet {
+public class PowerPellet extends PointItem {
     
+    private boolean invincibility;
+
+    public PowerPellet(String nm) {
+        super(nm);
+    }
+    
+    public boolean getInvincibility(){
+        return invincibility;
+    }
+    
+    public void setInvincibility(boolean Gi) {
+        this.invincibility = Gi ;
+    }
 }
