@@ -1,14 +1,40 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package APFA1;
-
-/**
- *
- * @author jaspe
- */
 public class Entities {
+    private Double Location;
+    private int count;
+    private Ghosts Ghost;
+    private PointItem Point;
+    private Pacman Pac;
     
+    public Entities(){
+    }
+    
+    public void setLocation(Double L){
+        this.Location = L;
+    }
+    
+    public Ghosts getGhost(){
+        return Ghost;
+    }
+    
+    public void setGhost(Ghosts G){
+        this.Ghost = G;
+    }
+    
+    public PointItem getPoint(){
+        return Point;
+    }
+    
+    public void setPoint(PointItem PI){
+        this.Point = PI;
+    }
+    
+    public Pacman getPac(){
+        return Pac;
+    }
+    
+    public void setPac(Pacman PAC){
+        this.Pac = PAC;
+    }
 }
+    
