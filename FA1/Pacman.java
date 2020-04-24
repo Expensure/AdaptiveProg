@@ -26,7 +26,7 @@ public class Pacman {
     }
     
     private void setLives(int SL){
-        this.lives = SL;
+        this.Lives = SL;
     }
             
 }
