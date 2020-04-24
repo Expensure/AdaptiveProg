@@ -1,14 +1,33 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package APFA1;
-
-/**
- *
- * @author jaspe
- */
 public class Pacman {
     
+    private String Direction;
+    private Boolean Alive;
+    private int Lives;
+    
+    public String getDirection(){
+        return Direction;
+    }
+    
+    private void setDirection(String SD){
+        this.Direction = SD;
+    }
+    
+    public Boolean getAlive(){
+        return Alive;
+    }
+    
+    private void setAlive(Boolean SA){
+        this.Alive = SA;
+    }
+    
+    public int getLives(){
+        return Lives;
+    }
+    
+    private void setLives(int SL){
+        this.lives = SL;
+    }
+            
 }
+
